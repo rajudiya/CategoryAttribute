@@ -8,7 +8,7 @@ Creates custom Category block with content
 
 - `composer config repositories.CategoryAttribute vcs https://github.com/rajudiya/CategoryAttribute`
 
-- `composer require custom/category-attribute`
+- `composer require custom/category-attribute:dev-main`
 
 ## Composer uninstall
 
