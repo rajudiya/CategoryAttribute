@@ -1,0 +1,11 @@
+<p id="custom">
+    	<?php
+    		$myBlock = \Magento\Framework\App\ObjectManager::getInstance()->get('Custom\CategoryAttribute\Block\MyBlock');
+ 
+				// print current category data
+				if ($currentCategory = $myBlock->getCurrentCategory()) { 
+				echo $currentCategory->getData('mp_new_attribute');  
+				echo '<img src="' . $currentCategory->getData('custom_image') . '" />';       
+				}
+    	?>
+</p>
